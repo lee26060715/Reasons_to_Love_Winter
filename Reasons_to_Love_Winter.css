@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper{
+  width: 940px;  
+  height: 800px;
+  border: 3px solid gray;
+  margin: auto;  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+header {
+  color: #F0F8FF;
+  text-shadow: 2px 2px 4px gray;
+
+  border: 3px solid gray;
+  display: grid;
+  grid-template-rows: auto auto auto;
+
+  background-image: url("winter.avif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+nav {
+  border: 3px solid gray;
+  display: grid;
+
+  background-color: #526D82;
+  color: white;
+  padding: 12px 20px;
+}
+
+.charm {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+}
+
+.charm > div {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.snow-image {
+  height: 150px;
+
+  background-image: url("snow-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.air-image {
+  height: 150px;
+
+  background-image: url("air-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.landscape-image {
+  height: 150px;
+
+  background-image: url("landscape-image.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+main {
+  border: 3px solid gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main > aside{
+  color: #F0F8FF;
+  text-shadow: 2px 2px 4px gray;
+
+  border: 3px solid gray;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  
+  background-image: url("large-winter-night.gif");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+footer {
+  border: 3px solid gray;
+  display: grid;
+}
