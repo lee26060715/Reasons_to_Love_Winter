@@ -8,8 +8,7 @@ body {
 
 .wrapper{
   width: 940px;  
-  height: 800px;
-  border: 3px solid gray;
+  border: 1px solid gray;
   margin: auto;  
   display: grid;
   grid-template-columns: 1fr;
@@ -20,7 +19,7 @@ header {
   color: #F0F8FF;
   text-shadow: 2px 2px 4px gray;
 
-  border: 3px solid gray;
+  border: 1px solid gray;
   display: grid;
   grid-template-rows: auto auto auto;
 
@@ -32,7 +31,7 @@ header {
 }
 
 nav {
-  border: 3px solid gray;
+  border: 1px solid gray;
   display: grid;
 
   background-color: #526D82;
@@ -80,26 +79,43 @@ nav {
 }
 
 main {
-  border: 3px solid gray;
+  border: 1px solid gray;
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  height: 300pt;
 }
 
 main > aside{
   color: #F0F8FF;
   text-shadow: 2px 2px 4px gray;
 
-  border: 3px solid gray;
+  border: 1px solid gray;
   display: grid;
   grid-template-rows: auto auto auto;
-  
+
   background-image: url("large-winter-night.gif");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+main > div {
+  padding: 20px;
+
+  background-color: #EAF2F8;
+  color: #34495E;
+
+  font-family: "Malgun Gothic", sans-serif;
+  line-height: 1.5;
+}
+
 footer {
-  border: 3px solid gray;
+  border: 1px solid gray;
   display: grid;
+
+  color: #8A949E;
+  background-color: #F5F7F8;
+  padding: 10px;
+  font-style: italic;
 }
